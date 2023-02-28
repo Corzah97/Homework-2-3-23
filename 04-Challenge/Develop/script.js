@@ -24,15 +24,18 @@ generateBtn.addEventListener("click", writePassword);
 
 
 function generatePassword() {
-return "test"
+return "password"
 }
 
 function getPrompts() {
+  // Choice Array
+  choiceArr = [];
+
   //Password Length
   passwordLength = parseInt(prompt("How many characters would you like for your password? (8 - 128 characters"));
 
   //error check for numbers greater then 8 and less then 128
-  if (passwordLength > 8 || passwordLength < 128 || isNaN(passwordLength)) {
+  if (passwordLength < 8 || passwordLength > 128 || isNaN(passwordLength)) {
   alert("Password Length has to be entered as a number, 8 - 128. Try Again.");
   return false;
   } 
@@ -43,6 +46,7 @@ function getPrompts() {
   alert("You have selected a password length of " + passwordLength + "characters.");
    
   // includelowerCassArr
+  
   var includelowerCassArr = confirm ("Do you want to add lowercase letters in your password?")
   // includeUpperCassArr
   var includeupperCassArr = confirm ("Do you want to add Uppercase letters in your password?")
