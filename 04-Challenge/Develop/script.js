@@ -1,5 +1,7 @@
 // Test the console log
 console.log("Test, test, one, two, one, two, testing.")
+
+
 var passwordLength = 8 || 128;
 var choiceArr = [];
 var specialCharArr = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '+', '=', '<', '>', '?', '/', ',']
@@ -29,7 +31,7 @@ function writePassword() {
 generateBtn.addEventListener("click", writePassword);
 
 function generatePassword() {
- // I
+ // 
   var password = "";
   for(var i = 0; i < passwordLength; i++) {
       var randomGenerator = Math.floor(Math.random() * choiceArr.length);
@@ -38,7 +40,7 @@ function generatePassword() {
   return password;
 }
 
-
+// Use this function to iniate prompts on the webpage
 function getPrompts() {
    // Choice Array
    choiceArr = [];
