@@ -40,7 +40,10 @@ THEN the password is either displayed in an alert or written to the page
 ![Upper Case Letters](screenshots/Screenshot%202023-03-02%20171200.png)
 ![Numbers](screenshots/Screenshot%202023-03-02%20171216.png)
 ![Special Characters](screenshots/Screenshot%202023-03-02%20171246.png)
-![Passwordgi](screenshots/Screenshot%202023-03-02%20171316.png)
+![Password](screenshots/Screenshot%202023-03-02%20171316.png)
+
+## Deployed Site
+https://corzah97.github.io/Homework-2-3-23/
 
 ## Work Done
 
